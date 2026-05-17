@@ -4,15 +4,15 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav style={{
-      position: "fixed",
-      width: "100%",
-      top: 0,
-      padding: "15px 20px",
-      background: "rgba(0,0,0,0.7)",
-      backdropFilter: "blur(10px)",
-      zIndex: 1000
-    }}>
+<nav style={{
+  position: "fixed",
+  top: 0,
+  left: 0,
+  width: "100%",
+  zIndex: 9999,   // 🔥 increase this
+  background: "rgba(0,0,0,0.9)",  // 🔥 solid background for test
+  padding: "15px 20px"
+}}>
 
       <div style={{
         display: "flex",
