@@ -9,9 +9,8 @@ export default function Navbar() {
   top: 0,
   left: 0,
   width: "100%",
-  zIndex: 9999,   // 🔥 increase this
-  background: "rgba(0,0,0,0.9)",  // 🔥 solid background for test
-  padding: "15px 20px"
+  zIndex: 9999,
+  background: "red"   // 🔥 TEMP TEST
 }}>
 
       <div style={{
