@@ -21,3 +21,17 @@ section {
   padding: 120px 20px;
   text-align: center;
 }
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  section {
+    padding: 80px 15px;
+  }
+
+  h1 {
+    font-size: 32px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+}

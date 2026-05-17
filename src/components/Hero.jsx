@@ -5,23 +5,25 @@ import profile from "../assets/profile.jpeg";
 export default function Hero() {
   return (
     <section
-      style={{
+    style={{
         height: "100vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
-      }}
-    >
+        padding: "0 20px"
+    }}
+>
+    
 
       {/* PROFILE IMAGE */}
       <motion.img
         src={profile}
         alt="profile"
         style={{
-          width: 160,
-          height: 160,
+          width: "120px",
+          height: "120px",
           borderRadius: "50%",
           objectFit: "cover",
           objectPosition: "center top",   // ✅ FIX for head cut

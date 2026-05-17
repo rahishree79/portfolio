@@ -30,16 +30,18 @@ export default function Contact() {
         Contact Me
       </motion.h2>
 
-      <motion.form
-        onSubmit={sendEmail}
-        style={{
-          maxWidth: "500px",
-          margin: "auto",
-          display: "flex",
-          flexDirection: "column",
-          gap: "15px"
-        }}
-      >
+        <motion.form
+    onSubmit={sendEmail}
+    style={{
+        maxWidth: "100%",   // ✅ changed
+        padding: "0 15px",  // ✅ added
+        margin: "auto",
+        display: "flex",
+        flexDirection: "column",
+        gap: "15px"
+    }}
+>
+      
 
         <input name="name" placeholder="Your Name" required style={inputStyle} />
         <input name="email" type="email" placeholder="Your Email" required style={inputStyle} />
