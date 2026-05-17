@@ -10,7 +10,8 @@ export default function Navbar() {
   left: 0,
   width: "100%",
   zIndex: 9999,
-  background: "red"   // 🔥 TEMP TEST
+  background: "rgba(0,0,0,0.7)",   // ✅ normal dark
+  backdropFilter: "blur(10px)"
 }}>
 
       <div style={{
